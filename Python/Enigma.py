@@ -2,6 +2,11 @@ from Python.Components.Plugboard import Plugboard
 from Python.Components.Rotor import Rotor
 from Python.Components.Reflector import Reflector
 
+'''
+//TODO Docs
+
+'''
+
 
 class Enigma:
 
@@ -16,7 +21,8 @@ class Enigma:
         print("Rotor Fast Alphabet: " + self.rotorFast.permutation)
         print("Rotor Med Alphabet: " + self.rotorMed.permutation)
         print("Rotor Slow Alphabet: " + self.rotorSlow.permutation)
-        print("Plugboard: " + ''.join(self.plugboard.key1) + ", " + ''.join(self.plugboard.key2))
+        print("Plugboard:")
+        print((list(zip(self.plugboard.key1, self.plugboard.key2))))
 
     def run(self, text):
         text = text.upper()
@@ -64,6 +70,6 @@ class Enigma:
 
 
 test = Enigma("EKMFLGDQVZNTOWYHXUSPAIBRCJ", 0, "AJDKSIRUXBLHWTMCQGZNPYFVOE", 0, "BDFHJLCPRTXVZNYEIWGAKMUSQO", 0)
-# print(test.run(input("Enter Text: \n")))
 test.printDayKey()
+print(test.run(input("Enter Text: \n")))
 
