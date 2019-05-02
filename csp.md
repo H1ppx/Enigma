@@ -20,7 +20,7 @@ comparisons between attempted encryption by the program and my physical model's 
 many of the components that were commonly used. Examples would be that rotors that were suppose to complete 
 fundamentally the same task functioned differently. By using an iterative process where following these tests, I made
 each component a class and transformed the program along the lines of Object Oriented Programming. By revising the 
-both the errors decreased due to easier debugging as well as management in complexity. 
+both the errors decreased due to easier debugging as well as management in complexity and created uniformity between components.
 
 ## 2C
 
@@ -72,7 +72,7 @@ def run(self, text):
 
 In the block above, the run() method rotates the 3 rotors independently at set times. The rotate motor algorithm, the 
 last part of the sequence, checks if rotate() methods returned value which is the current rotation of that rotor returns
-the value 0 in modulo. The if statement occurs for the fastest rotating rotor and then the next rotor in sequential 
+the value zero in modulo 26. The if statement occurs for the fastest rotating rotor and then the next rotor in sequential 
 speed. Should a rotor rotate, the next fastest rotor will have an identical nested if statement. The selected algorithm 
 affects the run() method by changing the permutation of the mono-alphabetic shift.
 
