@@ -70,11 +70,11 @@ def run(self, text):
     return output
 ```
 
-In the block above, the run() method rotates the 3 rotors independently at set times. The rotate motor algorithm, the 
+In the block above, the run() method rotates the 3 rotors independently at set times. The rotate motor sub-algorithm, the 
 last part of the sequence, checks if rotate() methods returned value which is the current rotation of that rotor returns
 the value zero in modulo 26. The if statement occurs for the fastest rotating rotor and then the next rotor in sequential 
 speed. Should a rotor rotate, the next fastest rotor will have an identical nested if statement. The selected algorithm 
-affects the run() method by changing the permutation of the mono-alphabetic shift.
+affects the run() method by changing the permutation of the mono-alphabetic shift. Another sub-algorithm is the encryption of the string called text. It encrypts each letter sequencially with rotations from the rotate motor sub-algorithm mentioned above. The two sub-algoritms combined help create a greater amount of key combinations therefore making the overall program more secure.
 
 ## 2D
 
