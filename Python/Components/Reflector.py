@@ -1,7 +1,6 @@
 class Reflector:
 
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    permutation = "YRUHQSLDPXNGOKMIEBFZCWVJAT"
 
     def __init__(self, permutation):
         """
