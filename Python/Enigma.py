@@ -5,12 +5,10 @@ from Components.Rotor import Rotor
 from Components.Reflector import Reflector
 from Components.Utils import NumberValidator, PermutationValidator
 
-from tabulate import tabulate
 import random
-import numpy as np
 from pyfiglet import Figlet
 from PyInquirer import style_from_dict, Token, prompt, Separator, print_json
-from pprint import pprint
+import numpy as np
 
 import os
 

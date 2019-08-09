@@ -10,16 +10,22 @@ rotor 'n+1' rotates a step. The video shows the encryption and decryption of the
 following information will be printed: all rotor permutations of the alphabet and the plugboard substitutions.
 
 ## Getting Started
+1. Download/Clone Repository
+2. Navigate to `../Enigma/`
+3. Run `pip install -r requirements.txt`
+4. Navigate to `../Enigma/Python/`
+5. To begin, run the following command: `python enigma.py`
 
-//TODO
 
 ### Prerequisites
-
-//TODO
+* [Python 3](https://www.python.org/)
+* [Numpy](https://pypi.org/project/numpy/)
+* [Pyfiglet](https://pypi.org/project/pyfiglet/)
+* [PyInquirer](https://pypi.org/project/PyInquirer/)
 
 ### How to Use
 
-//TODO
+When you first run the program, you will be prompted to either create an enigma machine with custom or random settings. Custom settings allow for customization of the permutation on each rotor as well as the starting position on each rotor while random settings creates a completely random permutation and starting position for the rotors. After the prompts are completed, the enigma key will be displayed as well as a prompt for text to encrypt/decrypt.
 
 ## License
 
