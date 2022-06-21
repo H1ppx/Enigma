@@ -1,5 +1,5 @@
 certifi==2019.6.16
-numpy==1.17.0
+numpy==1.22.0
 prompt-toolkit==1.0.14
 pyfiglet==0.8.post1
 Pygments==2.4.2
