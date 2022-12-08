@@ -1,4 +1,4 @@
-certifi==2019.6.16
+certifi==2022.12.7
 numpy==1.17.0
 prompt-toolkit==1.0.14
 pyfiglet==0.8.post1
